@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Calculator Suite Exponent and Parametrized Check">
+
+    <test name="Test Exponent Suite">
+        <classes>
+            <class name="homework2.TestExponent">
+                <methods>
+                    <exclude name="calculatorSqrtDoubleTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Test check">
+        <classes>
+            <class name="homework2.TestCheckPositive"/>
+            <class name="homework2.TestCheckNegative"/>
+        </classes>
+    </test>
+
+</suite>
